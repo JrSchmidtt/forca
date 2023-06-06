@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-vector<char> chutes_errados;
+extern vector<char> chutes_errados;
 
 void imprime_erros()
 {

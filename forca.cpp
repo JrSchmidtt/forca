@@ -1,9 +1,5 @@
 #include <iostream>
 #include <map>
-#include <vector>
-#include <fstream>
-#include <ctime>
-#include <cstdlib>
 #include "nao_acertou.hpp"
 #include "letra_existe.hpp"
 #include "imprime_cabecalho.hpp"

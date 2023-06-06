@@ -4,7 +4,7 @@
 #include "le_arquivo.hpp"
 
 using namespace std;
-string palavra_secreta;
+extern string palavra_secreta;
 
 void sorteia_palavra()
 {

@@ -17,3 +17,9 @@ g++ *.cpp -o forca.out
 ```
 ./forca
 ```
+
+## Notes
+
+hpp. files are the headers of the classes, and cpp. files are the implementation of the classes.
+
+extern is used to declare a global variable that will be used in other files.
