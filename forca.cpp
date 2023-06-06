@@ -4,18 +4,21 @@
 #include <fstream>
 #include <ctime>
 #include <cstdlib>
-#include "nao_acertou.cpp"
-#include "letra_existe.cpp"
-#include "imprime_cabecalho.cpp"
-#include "imprime_erros.cpp"
-#include "imprime_palavra.cpp"
-#include "chuta.cpp"
-#include "nao_enforcou.cpp"
-#include "le_arquivo.cpp"
-#include "sorteia_palavra.cpp"
-#include "adiciona_palavra.cpp"
-
+#include "nao_acertou.hpp"
+#include "letra_existe.hpp"
+#include "imprime_cabecalho.hpp"
+#include "imprime_erros.hpp"
+#include "imprime_palavra.hpp"
+#include "chuta.hpp"
+#include "nao_enforcou.hpp"
+#include "le_arquivo.hpp"
+#include "sorteia_palavra.hpp"
+#include "adiciona_palavra.hpp"
 using namespace std;
+
+string palavra_secreta;
+map<char, bool> chutou;
+vector<char> chutes_errados;
 
 int main()
 {

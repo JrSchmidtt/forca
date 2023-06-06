@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <string>
-#include "le_arquivo.cpp"
+#include "le_arquivo.hpp"
 
 using namespace std;
 string palavra_secreta;
