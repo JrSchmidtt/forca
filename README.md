@@ -10,7 +10,7 @@ sudo pacman -S gcc
 
 ## Built With
 ```
-g++ forca.cpp -o forca
+g++ *.cpp -o forca
 ```
 
 ## Running
