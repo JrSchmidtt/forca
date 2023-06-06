@@ -1,7 +1,6 @@
 #include <vector>
-using namespace std;
 
-extern vector<char> chutes_errados;
+extern std::vector<char> chutes_errados;
 
 bool nao_enforcou()
 {

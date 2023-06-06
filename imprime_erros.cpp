@@ -1,15 +1,14 @@
 #include <vector>
 #include <iostream>
-using namespace std;
 
-extern vector<char> chutes_errados;
+extern std::vector<char> chutes_errados;
 
 void imprime_erros()
 {
-    cout << "Chutes errados: ";
+    std::cout << "Chutes errados: ";
     for (char letra : chutes_errados)
     {
-        cout << letra << " ";
+        std::cout << letra << " ";
     }
-    cout << endl;
+    std::cout << std::endl;
 }

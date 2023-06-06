@@ -3,7 +3,6 @@
 #include <string>
 #include "le_arquivo.hpp"
 
-using namespace std;
 extern string palavra_secreta;
 
 void sorteia_palavra()

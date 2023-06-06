@@ -1,7 +1,6 @@
 #include <string>
-using namespace std;
 
-extern string palavra_secreta;
+extern std::string palavra_secreta;
 
 bool letra_existe(char chute)
 {
